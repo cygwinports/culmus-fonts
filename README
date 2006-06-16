@@ -1,0 +1,119 @@
+culmus
+------------------------------------------
+Hebrew Type1 fonts
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.7-1
+
+Canonical website:
+  http://culmus.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/culmus/
+
+-------------------------------------------
+
+Build instructions:
+  unpack culmus-0.101-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./culmus-0.101-X.cygport all
+
+This will create:
+  /usr/src/culmus-0.101-X-src.tar.bz2
+  /usr/src/culmus-0.101-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/fonts/culmus.conf
+  /etc/postinstall/culmus.sh
+  /usr/share/doc/Cygwin/culmus-0.101.README
+  /usr/share/doc/culmus-0.101/Changes
+  /usr/share/doc/culmus-0.101/GNU-GPL
+  /usr/share/doc/culmus-0.101/LICENSE
+  /usr/share/doc/culmus-0.101/LICENSE-BITSTREAM
+  /usr/share/fonts/Type1/AharoniCLM-Bold.afm
+  /usr/share/fonts/Type1/AharoniCLM-Bold.pfa
+  /usr/share/fonts/Type1/AharoniCLM-BoldOblique.afm
+  /usr/share/fonts/Type1/AharoniCLM-BoldOblique.pfa
+  /usr/share/fonts/Type1/AharoniCLM-Book.afm
+  /usr/share/fonts/Type1/AharoniCLM-Book.pfa
+  /usr/share/fonts/Type1/AharoniCLM-BookOblique.afm
+  /usr/share/fonts/Type1/AharoniCLM-BookOblique.pfa
+  /usr/share/fonts/Type1/CaladingsCLM.afm
+  /usr/share/fonts/Type1/CaladingsCLM.pfa
+  /usr/share/fonts/Type1/DavidCLM-Bold.afm
+  /usr/share/fonts/Type1/DavidCLM-Bold.pfa
+  /usr/share/fonts/Type1/DavidCLM-Medium.afm
+  /usr/share/fonts/Type1/DavidCLM-Medium.pfa
+  /usr/share/fonts/Type1/DavidCLM-MediumItalic.afm
+  /usr/share/fonts/Type1/DavidCLM-MediumItalic.pfa
+  /usr/share/fonts/Type1/DrugulinCLM-Bold.afm
+  /usr/share/fonts/Type1/DrugulinCLM-Bold.pfa
+  /usr/share/fonts/Type1/DrugulinCLM-BoldItalic.afm
+  /usr/share/fonts/Type1/DrugulinCLM-BoldItalic.pfa
+  /usr/share/fonts/Type1/ElliniaCLM-Bold.afm
+  /usr/share/fonts/Type1/ElliniaCLM-Bold.pfa
+  /usr/share/fonts/Type1/ElliniaCLM-BoldItalic.afm
+  /usr/share/fonts/Type1/ElliniaCLM-BoldItalic.pfa
+  /usr/share/fonts/Type1/ElliniaCLM-Light.afm
+  /usr/share/fonts/Type1/ElliniaCLM-Light.pfa
+  /usr/share/fonts/Type1/ElliniaCLM-LightItalic.afm
+  /usr/share/fonts/Type1/ElliniaCLM-LightItalic.pfa
+  /usr/share/fonts/Type1/FrankRuehlCLM-Bold.afm
+  /usr/share/fonts/Type1/FrankRuehlCLM-Bold.pfa
+  /usr/share/fonts/Type1/FrankRuehlCLM-BoldOblique.afm
+  /usr/share/fonts/Type1/FrankRuehlCLM-BoldOblique.pfa
+  /usr/share/fonts/Type1/FrankRuehlCLM-Medium.afm
+  /usr/share/fonts/Type1/FrankRuehlCLM-Medium.pfa
+  /usr/share/fonts/Type1/FrankRuehlCLM-MediumOblique.afm
+  /usr/share/fonts/Type1/FrankRuehlCLM-MediumOblique.pfa
+  /usr/share/fonts/Type1/MiriamCLM-Bold.afm
+  /usr/share/fonts/Type1/MiriamCLM-Bold.pfa
+  /usr/share/fonts/Type1/MiriamCLM-Book.afm
+  /usr/share/fonts/Type1/MiriamCLM-Book.pfa
+  /usr/share/fonts/Type1/MiriamMonoCLM-Bold.afm
+  /usr/share/fonts/Type1/MiriamMonoCLM-Bold.pfa
+  /usr/share/fonts/Type1/MiriamMonoCLM-BoldOblique.afm
+  /usr/share/fonts/Type1/MiriamMonoCLM-BoldOblique.pfa
+  /usr/share/fonts/Type1/MiriamMonoCLM-Book.afm
+  /usr/share/fonts/Type1/MiriamMonoCLM-Book.pfa
+  /usr/share/fonts/Type1/MiriamMonoCLM-BookOblique.afm
+  /usr/share/fonts/Type1/MiriamMonoCLM-BookOblique.pfa
+  /usr/share/fonts/Type1/NachlieliCLM-Bold.afm
+  /usr/share/fonts/Type1/NachlieliCLM-Bold.pfa
+  /usr/share/fonts/Type1/NachlieliCLM-BoldOblique.afm
+  /usr/share/fonts/Type1/NachlieliCLM-BoldOblique.pfa
+  /usr/share/fonts/Type1/NachlieliCLM-Light.afm
+  /usr/share/fonts/Type1/NachlieliCLM-Light.pfa
+  /usr/share/fonts/Type1/NachlieliCLM-LightOblique.afm
+  /usr/share/fonts/Type1/NachlieliCLM-LightOblique.pfa
+  /usr/share/fonts/Type1/YehudaCLM-Bold.afm
+  /usr/share/fonts/Type1/YehudaCLM-Bold.pfa
+  /usr/share/fonts/Type1/YehudaCLM-Light.afm
+  /usr/share/fonts/Type1/YehudaCLM-Light.pfa
+
+------------------
+
+Port Notes:
+
+----- version 0.101-1 -----
+Version bump.
+Installs into /usr/share/fonts/ for modular X11.
+
+----- version 0.100-1 -----
+Upstream version bump.
+
+----- version 0.93-1 -----
+Minor upstream update.
+
+----- version 0.90-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
