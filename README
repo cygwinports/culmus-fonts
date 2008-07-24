@@ -1,41 +1,43 @@
-culmus
+font-culmus-type1
 ------------------------------------------
-Hebrew Type1 fonts
+Hebrew Type1 and TTF fonts
 
 Build requirements:
-  cygwin-1.5.19-4
-  cygport-0.1.7-1
+  cygport-0.3.12-1
 
 Canonical website:
   http://culmus.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/culmus/
+  http://downloads.sourceforge.net/culmus/
 
 -------------------------------------------
 
 Build instructions:
-  unpack culmus-0.101-X-src.tar.bz2
+  unpack font-culmus-type1-0.102-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./culmus-0.101-X.cygport all
+  cygport ./font-culmus-type1-0.102-X.cygport all
 
 This will create:
-  /usr/src/culmus-0.101-X-src.tar.bz2
-  /usr/src/culmus-0.101-X.tar.bz2
+  /usr/src/font-culmus-type1-0.102-X-src.tar.bz2
+  /usr/src/font-culmus-type1-0.102-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/fonts/culmus.conf
-  /etc/postinstall/culmus.sh
-  /usr/share/doc/Cygwin/culmus-0.101.README
-  /usr/share/doc/culmus-0.101/Changes
-  /usr/share/doc/culmus-0.101/GNU-GPL
-  /usr/share/doc/culmus-0.101/LICENSE
-  /usr/share/doc/culmus-0.101/LICENSE-BITSTREAM
+  /etc/fonts/conf.d/culmus.conf
+  /etc/postinstall/font-culmus-type1.sh
+  /usr/share/doc/font-culmus-type1-0.102/Changes
+  /usr/share/doc/font-culmus-type1-0.102/GNU-GPL
+  /usr/share/doc/font-culmus-type1-0.102/LICENSE
+  /usr/share/doc/font-culmus-type1-0.102/LICENSE-BITSTREAM
+  /usr/share/fonts/TTF/DavidCLM-Bold.ttf
+  /usr/share/fonts/TTF/DavidCLM-BoldItalic.ttf
+  /usr/share/fonts/TTF/DavidCLM-Medium.ttf
+  /usr/share/fonts/TTF/DavidCLM-MediumItalic.ttf
   /usr/share/fonts/Type1/AharoniCLM-Bold.afm
   /usr/share/fonts/Type1/AharoniCLM-Bold.pfa
   /usr/share/fonts/Type1/AharoniCLM-BoldOblique.afm
@@ -46,12 +48,6 @@ Files included in the binary package:
   /usr/share/fonts/Type1/AharoniCLM-BookOblique.pfa
   /usr/share/fonts/Type1/CaladingsCLM.afm
   /usr/share/fonts/Type1/CaladingsCLM.pfa
-  /usr/share/fonts/Type1/DavidCLM-Bold.afm
-  /usr/share/fonts/Type1/DavidCLM-Bold.pfa
-  /usr/share/fonts/Type1/DavidCLM-Medium.afm
-  /usr/share/fonts/Type1/DavidCLM-Medium.pfa
-  /usr/share/fonts/Type1/DavidCLM-MediumItalic.afm
-  /usr/share/fonts/Type1/DavidCLM-MediumItalic.pfa
   /usr/share/fonts/Type1/DrugulinCLM-Bold.afm
   /usr/share/fonts/Type1/DrugulinCLM-Bold.pfa
   /usr/share/fonts/Type1/DrugulinCLM-BoldItalic.afm
@@ -100,6 +96,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.102-1 -----
+Version bump.
 
 ----- version 0.101-1 -----
 Version bump.
