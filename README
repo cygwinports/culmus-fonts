@@ -14,15 +14,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-culmus-type1-0.102-X-src.tar.bz2
+  unpack font-culmus-type1-0.103-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-culmus-type1-0.102-X.cygport all
+  cygport ./font-culmus-type1-0.103-X.cygport all
 
 This will create:
-  /usr/src/font-culmus-type1-0.102-X-src.tar.bz2
-  /usr/src/font-culmus-type1-0.102-X.tar.bz2
+  /usr/src/font-culmus-type1-0.103-X-src.tar.bz2
+  /usr/src/font-culmus-type1-0.103-X.tar.bz2
 
 -------------------------------------------
 
@@ -30,10 +30,10 @@ Files included in the binary package:
 
   /etc/fonts/conf.d/culmus.conf
   /etc/postinstall/font-culmus-type1.sh
-  /usr/share/doc/font-culmus-type1-0.102/Changes
-  /usr/share/doc/font-culmus-type1-0.102/GNU-GPL
-  /usr/share/doc/font-culmus-type1-0.102/LICENSE
-  /usr/share/doc/font-culmus-type1-0.102/LICENSE-BITSTREAM
+  /usr/share/doc/font-culmus-type1-0.103/Changes
+  /usr/share/doc/font-culmus-type1-0.103/GNU-GPL
+  /usr/share/doc/font-culmus-type1-0.103/LICENSE
+  /usr/share/doc/font-culmus-type1-0.103/LICENSE-BITSTREAM
   /usr/share/fonts/TTF/DavidCLM-Bold.ttf
   /usr/share/fonts/TTF/DavidCLM-BoldItalic.ttf
   /usr/share/fonts/TTF/DavidCLM-Medium.ttf
@@ -96,6 +96,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.103-1 -----
+Version bump.
 
 ----- version 0.102-1 -----
 Version bump.
