@@ -3,7 +3,7 @@ font-culmus-type1
 Hebrew Type1 and TTF fonts
 
 Build requirements:
-  cygport-0.3.12-1
+  cygport-0.9.84-1
 
 Canonical website:
   http://culmus.sourceforge.net/
@@ -14,88 +14,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-culmus-type1-0.103-X-src.tar.bz2
+  unpack font-culmus-type1-0.104-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-culmus-type1-0.103-X.cygport all
+  cygport ./font-culmus-type1-0.104-X.cygport all
 
 This will create:
-  /usr/src/font-culmus-type1-0.103-X-src.tar.bz2
-  /usr/src/font-culmus-type1-0.103-X.tar.bz2
+  /usr/src/font-culmus-type1-0.104-X-src.tar.bz2
+  /usr/src/font-culmus-type1-0.104-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/fonts/conf.d/culmus.conf
-  /etc/postinstall/font-culmus-type1.sh
-  /usr/share/doc/font-culmus-type1-0.103/Changes
-  /usr/share/doc/font-culmus-type1-0.103/GNU-GPL
-  /usr/share/doc/font-culmus-type1-0.103/LICENSE
-  /usr/share/doc/font-culmus-type1-0.103/LICENSE-BITSTREAM
-  /usr/share/fonts/TTF/DavidCLM-Bold.ttf
-  /usr/share/fonts/TTF/DavidCLM-BoldItalic.ttf
-  /usr/share/fonts/TTF/DavidCLM-Medium.ttf
-  /usr/share/fonts/TTF/DavidCLM-MediumItalic.ttf
-  /usr/share/fonts/Type1/AharoniCLM-Bold.afm
-  /usr/share/fonts/Type1/AharoniCLM-Bold.pfa
-  /usr/share/fonts/Type1/AharoniCLM-BoldOblique.afm
-  /usr/share/fonts/Type1/AharoniCLM-BoldOblique.pfa
-  /usr/share/fonts/Type1/AharoniCLM-Book.afm
-  /usr/share/fonts/Type1/AharoniCLM-Book.pfa
-  /usr/share/fonts/Type1/AharoniCLM-BookOblique.afm
-  /usr/share/fonts/Type1/AharoniCLM-BookOblique.pfa
-  /usr/share/fonts/Type1/CaladingsCLM.afm
-  /usr/share/fonts/Type1/CaladingsCLM.pfa
-  /usr/share/fonts/Type1/DrugulinCLM-Bold.afm
-  /usr/share/fonts/Type1/DrugulinCLM-Bold.pfa
-  /usr/share/fonts/Type1/DrugulinCLM-BoldItalic.afm
-  /usr/share/fonts/Type1/DrugulinCLM-BoldItalic.pfa
-  /usr/share/fonts/Type1/ElliniaCLM-Bold.afm
-  /usr/share/fonts/Type1/ElliniaCLM-Bold.pfa
-  /usr/share/fonts/Type1/ElliniaCLM-BoldItalic.afm
-  /usr/share/fonts/Type1/ElliniaCLM-BoldItalic.pfa
-  /usr/share/fonts/Type1/ElliniaCLM-Light.afm
-  /usr/share/fonts/Type1/ElliniaCLM-Light.pfa
-  /usr/share/fonts/Type1/ElliniaCLM-LightItalic.afm
-  /usr/share/fonts/Type1/ElliniaCLM-LightItalic.pfa
-  /usr/share/fonts/Type1/FrankRuehlCLM-Bold.afm
-  /usr/share/fonts/Type1/FrankRuehlCLM-Bold.pfa
-  /usr/share/fonts/Type1/FrankRuehlCLM-BoldOblique.afm
-  /usr/share/fonts/Type1/FrankRuehlCLM-BoldOblique.pfa
-  /usr/share/fonts/Type1/FrankRuehlCLM-Medium.afm
-  /usr/share/fonts/Type1/FrankRuehlCLM-Medium.pfa
-  /usr/share/fonts/Type1/FrankRuehlCLM-MediumOblique.afm
-  /usr/share/fonts/Type1/FrankRuehlCLM-MediumOblique.pfa
-  /usr/share/fonts/Type1/MiriamCLM-Bold.afm
-  /usr/share/fonts/Type1/MiriamCLM-Bold.pfa
-  /usr/share/fonts/Type1/MiriamCLM-Book.afm
-  /usr/share/fonts/Type1/MiriamCLM-Book.pfa
-  /usr/share/fonts/Type1/MiriamMonoCLM-Bold.afm
-  /usr/share/fonts/Type1/MiriamMonoCLM-Bold.pfa
-  /usr/share/fonts/Type1/MiriamMonoCLM-BoldOblique.afm
-  /usr/share/fonts/Type1/MiriamMonoCLM-BoldOblique.pfa
-  /usr/share/fonts/Type1/MiriamMonoCLM-Book.afm
-  /usr/share/fonts/Type1/MiriamMonoCLM-Book.pfa
-  /usr/share/fonts/Type1/MiriamMonoCLM-BookOblique.afm
-  /usr/share/fonts/Type1/MiriamMonoCLM-BookOblique.pfa
-  /usr/share/fonts/Type1/NachlieliCLM-Bold.afm
-  /usr/share/fonts/Type1/NachlieliCLM-Bold.pfa
-  /usr/share/fonts/Type1/NachlieliCLM-BoldOblique.afm
-  /usr/share/fonts/Type1/NachlieliCLM-BoldOblique.pfa
-  /usr/share/fonts/Type1/NachlieliCLM-Light.afm
-  /usr/share/fonts/Type1/NachlieliCLM-Light.pfa
-  /usr/share/fonts/Type1/NachlieliCLM-LightOblique.afm
-  /usr/share/fonts/Type1/NachlieliCLM-LightOblique.pfa
-  /usr/share/fonts/Type1/YehudaCLM-Bold.afm
-  /usr/share/fonts/Type1/YehudaCLM-Bold.pfa
-  /usr/share/fonts/Type1/YehudaCLM-Light.afm
-  /usr/share/fonts/Type1/YehudaCLM-Light.pfa
-
-------------------
-
 Port Notes:
+
+----- version 0.104-1 -----
+Version bump.
 
 ----- version 0.103-1 -----
 Version bump.
