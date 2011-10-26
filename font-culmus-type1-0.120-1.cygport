@@ -1,10 +1,9 @@
-ORIG_PN=culmus
-
 inherit font
 
 DESCRPTION="Hebrew Type1 fonts"
 HOMEPAGE="http://culmus.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+SRC_URI="mirror://sourceforge/${ORIG_PN}/culmus-${PV}.tar.gz"
+SRC_DIR="culmus-${PV}"
 
 DOCS="GNU-GPL LICENSE-BITSTREAM"
 
