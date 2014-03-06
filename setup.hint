@@ -1,5 +1,0 @@
-category: X11
-requires: mkfontdir mkfontscale fontconfig font-encodings
-sdesc: "Hebrew Type1 fonts"
-ldesc: "Hebrew Type1 fonts"
-
