@@ -1,0 +1,44 @@
+inherit font
+
+NAME="culmus-fonts"
+VERSION=0.130
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Hebrew fonts"
+DESCRIPTION="The Culmus project aims at providing the Hebrew-speaking *NIX
+community with a basic collection of Hebrew fonts for X Windows."
+HOMEPAGE="http://culmus.sourceforge.net/"
+SRC_URI="
+	mirror://sourceforge/culmus/culmus-${VERSION}.tar.gz
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-aharoni-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-caladings-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-david-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-ellinia-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-frank-ruehl-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-hadasim-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-keteryg.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-miriam-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-miriam-mono-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-nachlieli-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-shofar.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-simple-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-stamashkenaz-clm.conf
+	http://pkgs.fedoraproject.org/cgit/culmus-fonts.git/plain/65-culmus-stamsefarad-clm.conf
+"
+SRC_DIR="culmus-${VERSION}"
+
+OBSOLETES="font-culmus-type1"
+
+ARCH=noarch
+
+DOCS="GNU-GPL LICENSE-BITSTREAM"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	fontinto culmus
+	dofont *.afm *.pfa *.ttf
+
+	dofontconf 65-culmus-*.conf
+}
